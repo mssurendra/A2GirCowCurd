@@ -606,3 +606,12 @@ margin-bottom:15px;
     font-size:18px;
     color:#555;
 }
+
+.hero img{
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+html{
+    scroll-behavior:smooth;
+}
