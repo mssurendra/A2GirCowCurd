@@ -615,3 +615,38 @@ margin-bottom:15px;
 html{
     scroll-behavior:smooth;
 }
+
+/* Trust Cards */
+
+.trust-section{
+    background:#ffffff;
+}
+
+.trust-card{
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+    height:100%;
+}
+
+.trust-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.trust-icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.trust-card h5{
+    color:#1f5d1f;
+    font-weight:700;
+}
+
+.trust-card p{
+    color:#666;
+    margin-bottom:0;
+}
